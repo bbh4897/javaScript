@@ -4,11 +4,18 @@
     <meta charset="utf-8">
     <script src="../js/cookie.js"></script>
 </head>
-   
+
 <body>
+    <!-- Çerez Oluşturma-->
     <form name="myForm" action="">
-        Bir isim giriniz: <input type="text" name="ad"/>
-        <input type="button" value="Cookie Oluştur" onclick="writeCookie();"/>
+        Bir isim giriniz: <input type="text" name="ad" />
+        <input type="button" value="Cookie Oluştur" onclick="writeCookie();" />
+    </form>
+
+    <!-- Çerezleri Alma-->
+
+    <form name="myFormGetCookie" action="">
+        <input type="button" value="Çerezleri al" onclick="readCookie();" />
     </form>
 
 </body>
